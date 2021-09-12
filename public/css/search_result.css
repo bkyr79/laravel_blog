@@ -1,0 +1,27 @@
+.pagination{
+  text-align: center;
+  margin: 0 600px;   
+}
+
+.title{
+  /* display: inline-block; */
+  text-align: center;
+  margin: 80px auto 70px;
+}
+
+.title-result{
+  text-align: center;
+}
+
+.content-result{
+  margin: 0 400px;
+  color: gray;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.no-data-mes{
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,45 @@
+h2{
+  text-align: center;
+}
+
+.title-h2{
+  margin: 30px auto;
+}
+
+.forms{
+  text-align: center;
+  margin-top: 40px;
+}
+.list{
+  font-size: 20px;
+}
+
+.title{
+  width: 400px;
+}
+
+.category{
+  width: 400px;
+}
+
+.content{
+  width: 600px;
+}
+
+.title-div{
+  margin: 10px;
+}
+
+.category-div{
+  margin: 10px;
+}
+
+.content-div{
+  margin: 15px;
+}
+
+.submit-btn{
+  height: 45px;
+  width: 200px;
+  font-size: 25px;
+}

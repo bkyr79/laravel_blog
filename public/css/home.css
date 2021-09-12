@@ -1,0 +1,56 @@
+.app-title{
+  margin: 20px;
+}
+
+.category{
+  color: gray;
+  font-size: 17px;
+}
+
+.post-detail{
+  width: 69%;
+  height: 100%;
+  border: solid 6px gray;
+  float: left;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.post-list{
+  width: 25%;
+  height: 100%;
+  border: solid 3px gray;
+  float: right;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.post-list-title{
+  margin-bottom: 25px;
+}
+
+.post-title{
+  margin-bottom: 5px;
+}
+
+.post-title-btn{
+  border-color: white;
+  background-color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.search-form{
+  float: left;
+  margin-left: 20px;
+}
+
+.links{
+  display: inline-block;
+  margin: 0 40px;
+}
+
+.links a{
+  display: inline-block;
+  margin-right: 30px;
+}
