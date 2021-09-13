@@ -8,11 +8,13 @@ use Illuminate\Support\Facades\Validator;
 
 class CreatePostController extends Controller
 {
+    // 記事作成画面を表示させる
     public function index() 
     {
         return view('create_post');
     }
 
+    // 記事内容をDBに保存する
     public function postSubmit(Request $request)
     { 
 		$request->validate([

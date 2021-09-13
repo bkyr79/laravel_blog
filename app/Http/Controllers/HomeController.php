@@ -8,6 +8,7 @@ use App\Models\Post;
 
 class HomeController extends Controller
 {
+    // ホーム画面(= 記事一覧・記事詳細画面)を表示させる
     public function index(Request $request) 
     {
         $request->session()->forget('selected_post');
@@ -32,6 +33,7 @@ class HomeController extends Controller
         ]);
     }
 
+    // 検索ワードに一致した記事を表示させる
     public function search(Request $request)
     {
         $keyword = $request->input('keyword');        

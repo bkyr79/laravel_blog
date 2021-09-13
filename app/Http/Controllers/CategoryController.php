@@ -7,6 +7,7 @@ use App\Models\Post;
 
 class CategoryController extends Controller
 {
+    // カテゴリ一覧を表示させる
     public function categoryList()
     {
         $posts = Post::latest('updated_at')->distinct()->get('category');
@@ -15,7 +16,7 @@ class CategoryController extends Controller
             "posts" => $posts,
         ]);
     }
-
+    // カテゴリ一ごとの記事を表示させる
     public function categoryDetail()
     {
         if($_GET){

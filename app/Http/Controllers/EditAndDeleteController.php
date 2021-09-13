@@ -43,6 +43,7 @@ class EditAndDeleteController extends Controller
         ]);
     }
 
+    // 編集内容をDBに反映(=更新)させる
     public function editDone(Request $request) 
     {   
         $request->validate([
